@@ -5,28 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Empleos Disponibles</title>
     <link rel="stylesheet" href="empleos.css">
-</html>
+</head>
 <body>
     <header>
         <nav class="main-nav">
-            <h1>DevJobs</h1>
-            <ul class="nav-links">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="empleos.html">Empleos</a></li>
-                <li><a href="contacto.html">Empresas</a></li>
-                <li><a href="sobre-nosotros.html">Salarios</a></li>
-            </ul>
+            <div>
+                <h1>
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <polyline points="16 18 22 12 16 6"></polyline>
+                    <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+                DevJobs
+                </h1>
+                <ul class="nav-links">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="empleos.html">Empleos</a></li>
+                    <li><a href="contacto.html">Empresas</a></li>
+                    <li><a href="sobre-nosotros.html">Salarios</a></li>
+                </ul>
+            </div>
             <button>Subir CV</button>
         </nav>
     </header>
+
     <main>
-        <section>
-            <h2>Encuentra tu proximo trabajo</h2>
-            <h3>Espera miles de oportunidades en el sector tecnologico</h3>
-            <input type="text" placeholder="Buscar trabajos, empresas o habilidades">
+        <section class="job-search">
+            <div class="search-header">
+                <h1>Encuentra tu próximo trabajo</h1>
+                <h4>Espera miles de oportunidades en el sector tecnológico</h4>
+            </div>
+                <input type="text" placeholder="Buscar trabajos, empresas o habilidades">
 
             <div class="filters">
-
                 <select name="Tecnologia" id="">
                     <option value="todas">Todas las tecnologías</option>
                     <option value="javascript">JavaScript</option>
@@ -50,34 +61,61 @@
                     <option value="senior">Senior</option>
                     <option value="manager">Manager</option>
                 </select>
-            </section>
+            </div>
+        </section>
             
         </div>
             <section class="job-listings">
-                <h2>Resultados de busqueda</h2>
+                <h2>Resultados de búsqueda</h2>
             <article>
-                <h3>Desarrollador Frontend</h3>
-                <h5>Tech Solutions / remoto</h5>
-                <p>buscamos un ingeniero de software con experiencia en desarrollo web y conocimientos en javascript, react y node.js. el candidato ideal debe ser capa de trabajar en equipo y tener buenas habilidades de comunicacion</p>
-                <button>aplicar</button>
+                <header>
+                    <div>
+                        <h3>Desarrollador Frontend</h3>
+                        <h5>Tech Solutions / remoto</h5>
+                    </div>
+                    <button>aplicar</button>
+                </header>
+                <footer>
+
+                    <p>buscamos un ingeniero de software con experiencia en desarrollo web y conocimientos en javascript, react y node.js. el candidato ideal debe ser capa de trabajar en equipo y tener buenas habilidades de comunicacion</p>
+                </footer>
+                </article>
+            <article>
+                <header>
+                    <div>
+                        <h3>Ingeniero de Software Backend</h3>
+                        <h5>Innovatech / hibrido</h5>
+                    </div>
+                    <button>aplicar</button>
+                </header>
+                <footer>
+                    <p>se busca ingeniero de software con experiencia en desarrollo backend utilizando python y django. el candidato debe tener conocimientos en bases de datos relacionales y no relacionales, asi como experiencia en arquitecturas de microservicios.</p>
+                </footer>
+                </article>
+            <article>
+                <header>
+                    <div>
+                        <h3>Desarrollador Full Stack</h3>
+                        <h5>WebWorks / remoto</h5>
+                    </div>
+                    <button>aplicar</button>
+                </header>
+                <footer>
+                    <p>buscamos desarrollador full stack con experiencia en tecnologias como javascript, react, node.js y mongodb. el candidato idealdebe ser capaz de trabajar en un entorno agil y tener buenas habilidades de resolucion de problemas.</p>
+                </footer>
             </article>
             <article>
-                <h3>Ingeniero de Software Backend</h3>
-                <h5>Innovatech / hibrido</h5>
-                <p>se busca ingeniero de software con experiencia en desarrollo backend utilizando python y django. el candidato debe tener conocimientos en bases de datos relacionales y no relacionales, asi como experiencia en arquitecturas de microservicios.</p>
-                <button>aplicar</button>
-            </article>
-            <article>
-                <h3>Desarrollador Full Stack</h3>
-                <h5>WebWorks / remoto</h5>
-                <p>buscamos desarrollador full stack con experiencia en tecnologias como javascript, react, node.js y mongodb. el candidato idealdebe ser capaz de trabajar en un entorno agil y tener buenas habilidades de resolucion de problemas.</p>
-                <button>aplicar</button>
-            </article>
-            <article>
-                <h3>Especialista en Seguridad Informática</h3>
-                <h5>SecureNet / remoto</h5>
-                <p>se busca especialista en seguridad informática con experiencia en análisis de vulnerabilidades, pruebas de penetración y gestión de incidentes. el candidato debe tener conocimientos en normativas de seguridad y mejores prácticas del sector.</p>
-                <button>aplicar</button>
+                <header>
+                    <div>
+                        <h3>Especialista en Seguridad Informática</h3>
+                        <h5>SecureNet / remoto</h5>
+                    </div>
+                    <button>aplicar</button>
+                </header>
+                <footer>
+                    <p>se busca especialista en seguridad informática con experiencia en análisis de vulnerabilidades, pruebas de penetración y gestión de incidentes. el candidato debe tener conocimientos en normativas de seguridad y mejores prácticas del sector.</p>
+                </footer>
+                    
             </article>
 
         </section>
@@ -89,3 +127,5 @@
         <a href="pagina3.html">3</a>
             </nav>
     </footer>
+    
+</html>
