@@ -9,7 +9,7 @@
 <body>
     <header>
         <nav class="main-nav">
-            <div>
+            <div class="nav-left">
                 <h1>
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                     viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -21,8 +21,8 @@
                 <ul class="nav-links">
                     <li><a href="index.html">Inicio</a></li>
                     <li><a href="empleos.html">Empleos</a></li>
-                    <li><a href="contacto.html">Empresas</a></li>
-                    <li><a href="sobre-nosotros.html">Salarios</a></li>
+                    <li><a href="#">Empresas</a></li>
+                    <li><a href="#">Salarios</a></li>
                 </ul>
             </div>
             <button>Subir CV</button>
@@ -71,9 +71,9 @@
                 <header>
                     <div>
                         <h3>Desarrollador Frontend</h3>
-                        <h5>Tech Solutions / remoto</h5>
+                        <small>Tech Solutions | remoto</small>
                     </div>
-                    <button>aplicar</button>
+                    <button class="button-apply">Aplicar</button>
                 </header>
                 <footer>
 
@@ -84,9 +84,9 @@
                 <header>
                     <div>
                         <h3>Ingeniero de Software Backend</h3>
-                        <h5>Innovatech / hibrido</h5>
+                        <small>Innovatech | hibrido</small>
                     </div>
-                    <button>aplicar</button>
+                    <button class="button-apply">Aplicar</button>
                 </header>
                 <footer>
                     <p>se busca ingeniero de software con experiencia en desarrollo backend utilizando python y django. el candidato debe tener conocimientos en bases de datos relacionales y no relacionales, asi como experiencia en arquitecturas de microservicios.</p>
@@ -96,9 +96,9 @@
                 <header>
                     <div>
                         <h3>Desarrollador Full Stack</h3>
-                        <h5>WebWorks / remoto</h5>
+                        <small>WebWorks | remoto</small>
                     </div>
-                    <button>aplicar</button>
+                    <button class="button-apply">Aplicar</button>
                 </header>
                 <footer>
                     <p>buscamos desarrollador full stack con experiencia en tecnologias como javascript, react, node.js y mongodb. el candidato idealdebe ser capaz de trabajar en un entorno agil y tener buenas habilidades de resolucion de problemas.</p>
@@ -108,9 +108,9 @@
                 <header>
                     <div>
                         <h3>Especialista en Seguridad Informática</h3>
-                        <h5>SecureNet / remoto</h5>
+                        <small>SecureNet | remoto</small>
                     </div>
-                    <button>aplicar</button>
+                    <button class="button-apply is-applied">Aplicar</button>
                 </header>
                 <footer>
                     <p>se busca especialista en seguridad informática con experiencia en análisis de vulnerabilidades, pruebas de penetración y gestión de incidentes. el candidato debe tener conocimientos en normativas de seguridad y mejores prácticas del sector.</p>
@@ -122,9 +122,22 @@
     </main>
     <footer>
             <nav class="pagination">
-        <a href="pagina1.html">1</a>
-        <a href="pagina2.html">2</a>
-        <a href="pagina3.html">3</a>
+                        <a href="#"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M15 6l-6 6l6 6" />
+          </svg></a>
+        <a href="#" class="is-active">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+                <a href="#"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+            stroke-linecap="round" stroke-linejoin="round"
+            class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-right">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M9 6l6 6l-6 6" />
+          </svg></a>
             </nav>
     </footer>
     
